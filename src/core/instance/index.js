@@ -13,7 +13,7 @@ function Vue (options) {
   }
   this._init(options)
 }
-
+console.log('init init;')
 initMixin(Vue)
 stateMixin(Vue)
 eventsMixin(Vue)
